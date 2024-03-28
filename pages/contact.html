@@ -8,66 +8,60 @@
   </head>
   <body>
     <div class="container">
-    <div class="nav-bar">
-      <div class="nav-bar-l">
-        <img src="../assets/pics/bird.png" alt="bird-png" />
+      <div class="nav-bar">
+        <div class="nav-bar-l">
+          <img src="../assets/pics/bird.png" alt="bird-png" />
+        </div>
+        <nav class="nav-bar-r">
+          <a href="../index.html">Home</a>
+          <a href="./education.html">Education</a>
+          <a href="./work.html">Work Experience</a>
+          <p>Contact Me</p>
+        </nav>
       </div>
-      <nav class="nav-bar-r">
-        <a href="../index.html">Home</a>
-        <a href="./education.html">Education</a>
-        <a href="./work.html">Work Experience</a>
-        <p>Contact Me</p>
-      </nav>
-    </div>
-    <div class="content">
-      <div class="user-name">Contact Me</div>
-    </div>
+      <div class="content">
+        <div class="user-name">Contact Me</div>
+      </div>
 
-    <div class="content-contact">
-      <div class="contact-box">
-        <form action="./contact.html" method="POST">
-          <div class="title">Enter your info.</div>
-          <label for="info-fname">Your Name</label>
-          <br />
-          <input
-            type="text"
-            namae="info-fname"
-            value=""
-          />
-          <div class="info-input">
-            <label for="info-email">Your E-mail</label>
+      <div class="content-contact">
+        <div class="contact-box">
+          <form action="./contact.html" method="POST">
+            <div class="title">Enter your info.</div>
+            <label for="info-fname">Your Name</label>
             <br />
-            <input
-              type="text"
-              namae="info-email"
-              value=""
-            />
-          </div>
-          <div class="info-input">
-            <label for="info-gender">Gender</label>
-            <br />
-            <select name="gender" id="">
-              <option value=""></option>
-              <option value="female">Female</option>
-              <option value="male">Male</option>
-              <option value="non-binary">Non-Binary</option>
-              <option value="other">Other</option>
-              <option value="Prefer not to answer">Perfer not to Answer</option>
-            </select>
-          </div>
-          <div class="info-input">
-            <label for="info-message">Message</label>
-            <textarea name="info-message" id="infotext" cols="31" rows="10">
-            </textarea>
-          </div>
-          <button type="submit" class="btn btn-send">Send</button>
-          <button type="reset" class="btn btn-reset">Clear</button>
-        </form>
+            <input type="text" namae="info-fname" value="" />
+            <div class="info-input">
+              <label for="info-email">Your E-mail</label>
+              <br />
+              <input type="text" namae="info-email" value="" />
+            </div>
+            <div class="info-input">
+              <label for="info-gender">Gender</label>
+              <br />
+              <select name="gender" id="">
+                <option value=""></option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="non-binary">Non-Binary</option>
+                <option value="other">Other</option>
+                <option value="Prefer not to answer">
+                  Perfer not to Answer
+                </option>
+              </select>
+            </div>
+            <div class="info-input">
+              <label for="info-message">Message</label>
+              <textarea name="info-message" id="infotext" cols="32" rows="10">
+              </textarea>
+            </div>
+            <button type="submit" class="btn btn-send">Send</button>
+            <button type="reset" class="btn btn-reset">Clear</button>
+          </form>
+        </div>
       </div>
+      <footer>
+        <div class="text-footer">&copy; Copyright 2024</div>
+      </footer>
     </div>
-    <footer>
-      <div class="text-footer">&copy; Copyright 2024</div>
-    </footer>
-  </div>
   </body>
 </html>

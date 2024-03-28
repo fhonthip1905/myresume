@@ -125,13 +125,14 @@ a:hover {
 .title {
   font-size: 18px;
   font-weight: 500;
-  padding-block: 10px;
+  padding-bottom: 10px;
 }
 .content-contact form {
   display: table-caption;
   border: 1px solid #aaaaaa;
   border-radius: 8px;
   padding: 20px;
+  margin-block: 10%;
   background-color: antiquewhite;
 }
 
@@ -141,11 +142,13 @@ a:hover {
 
 .contact-box input {
   width: 264px;
+  height: 24px;
   text-align: center;
 }
 
 .info-input select {
   width: 266px;
+  height: 30px;
   text-align: center;
 }
 
