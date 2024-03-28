@@ -60,6 +60,10 @@ a:hover {
   color: #aaaaaa;
   font-size: 16px;
 }
+.parag {
+  text-align: justify;
+  line-height: 30px;
+}
 .my-pic img {
   text-align: center;
   width: 40%;
