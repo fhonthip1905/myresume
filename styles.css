@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+body {
+  margin-inline: 10%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 10px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.nav-bar-l img {
+  width: 50px;
+}
+
+.nav-bar-l {
+  background-color: antiquewhite;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.nav-bar-r {
+  display: flex;
+  gap: 40px;
+}
+.nav-bar-r a {
+  display: block;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+a:hover {
+  background-color: #ffe2e2;
+}
+.content,
+.text-footer {
+  color: #aaaaaa;
+  text-align: center;
+  padding: 20px;
+}
+.user-name,
+.title-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 46px;
+  color: #ffc7c7;
+  font-family: 600;
+}
+.job,
+.parag {
+  margin-block: 20px;
+  color: #aaaaaa;
+  font-size: 16px;
+}
+.my-pic img {
+  text-align: center;
+  width: 40%;
+}
+.title-content {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.block-content {
+  display: inline-block;
+}
+.parag-1 {
+  display: flex;
+  gap: 20px;
+  color: #aaaaaa;
+  font-size: 16px;
+  margin-block: 20px;
+}
+.block-content img {
+  width: 8%;
+  gap: 10px;
+}
+/* ----------- Education page--------------- */
+
+.my-pic-education img {
+  text-align: center;
+  width: 10%;
+}
+.table-education, .table-experient {
+  border: 1px solid red;
+  border-collapse: collapse;
+  width: 70%;
+  text-align: center;
+  margin-block: 5%;
+}
+.table-h {
+  background-color: #ffe2e2;
+}
+.table-education td , .table-experient td,
+.table-education th , .table-experient  th {
+  color: #aaaaaa;
+  border: 1px solid #aaaaaa;
+  padding: 10px 10px;
+}
+.content-education, .content-experient, .content-contact {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------- Education page--------------- */
+.my-pic-experient img {
+  width: 30%;
+}
+.table-experient {
+  margin-block: 2.5%;
+}
+/* ----------- Contact page--------------- */
+.content-contact form {
+  display: table-caption;
+  border:1px solid #aaaaaa;
+  padding: 20px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+}
