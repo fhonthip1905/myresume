@@ -3,7 +3,8 @@
   padding: 0;
   font-family: monospace;
 }
-body {
+
+.container {
   margin-inline: 10%;
 }
 .nav-bar {
@@ -159,11 +160,11 @@ a:hover {
 }
 
 .btn:hover {
-  border:2px solid #ffc7c7;
+  border: 2px solid #ffc7c7;
   background-color: whitesmoke;
   color: #ffc7c7;
   font-weight: bold;
 }
-.info-input{
+.info-input {
   padding-block: 5px;
 }
