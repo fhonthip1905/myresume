@@ -37,6 +37,7 @@ body {
 a:hover {
   background-color: #ffe2e2;
 }
+
 .content,
 .text-footer {
   color: #aaaaaa;
@@ -86,7 +87,8 @@ a:hover {
   text-align: center;
   width: 10%;
 }
-.table-education, .table-experient {
+.table-education,
+.table-experient {
   border: 1px solid red;
   border-collapse: collapse;
   width: 70%;
@@ -96,13 +98,17 @@ a:hover {
 .table-h {
   background-color: #ffe2e2;
 }
-.table-education td , .table-experient td,
-.table-education th , .table-experient  th {
+.table-education td,
+.table-experient td,
+.table-education th,
+.table-experient th {
   color: #aaaaaa;
   border: 1px solid #aaaaaa;
   padding: 10px 10px;
 }
-.content-education, .content-experient, .content-contact {
+.content-education,
+.content-experient,
+.content-contact {
   display: flex;
   justify-content: center;
 }
@@ -115,12 +121,49 @@ a:hover {
   margin-block: 2.5%;
 }
 /* ----------- Contact page--------------- */
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  padding-block: 10px;
+}
 .content-contact form {
   display: table-caption;
-  border:1px solid #aaaaaa;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
   padding: 20px;
+  background-color: antiquewhite;
 }
-.test {
-  display: flex;
-  justify-content: center;
+
+#infotext {
+  text-align: start;
+}
+
+.contact-box input {
+  width: 264px;
+  text-align: center;
+}
+
+.info-input select {
+  width: 266px;
+  text-align: center;
+}
+
+.btn {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+  width: 100px;
+}
+
+.btn:hover {
+  border:2px solid #ffc7c7;
+  background-color: whitesmoke;
+  color: #ffc7c7;
+  font-weight: bold;
+}
+.info-input{
+  padding-block: 5px;
 }
