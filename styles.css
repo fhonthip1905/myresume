@@ -1,7 +1,15 @@
+.concert-one-regular {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: monospace;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
@@ -167,9 +175,7 @@ a:hover {
 }
 
 .btn:hover {
-  border: 2px solid #ffc7c7;
-  background-color: whitesmoke;
-  color: #ffc7c7;
+  background-color: #ffc7c7;
   font-weight: bold;
 }
 .info-input {
